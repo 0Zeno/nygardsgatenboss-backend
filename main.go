@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import sendMail "nygardsgatenboss-backend/mail"
 
-func main()  {
-	fmt.Println("Hello, World!")
-}	
+func main() {
+	sendMail.SendMail()
+}
